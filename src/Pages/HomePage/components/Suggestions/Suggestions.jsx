@@ -43,7 +43,7 @@ export default function Suggestions() {
 
       <PairContainer
         align="left"
-        videoSrc="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2023/Bugatti-Models/Super-Sport/engine-chiron-supersport-desktop.mp4"
+        videoSrc={require("./media/1.mp4")}
         title="Техническое обслуживание"
         text="Новейшие технические решения, качественная диагностика и опытная команда — ключ к непревзойденной динамике и скорости. Превратите свой двигатель в настоящее произведение инженерного искусства."
         videoClass={classes.videoItem1}
@@ -52,7 +52,7 @@ export default function Suggestions() {
 
       <PairContainer
         align="right"
-        videoSrc="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2024/Models/Tourbillon/03_Technique/comp/Bugatti_Tourbillon_03a_beauty_underneath_d0.mp4"
+        videoSrc={require("./media/2.mp4")}
         title="Шумоизоляцию"
         text="Подарите своему автомобилю комфорт и чистоту звука с нашей профессиональной шумоизоляцией. Наслаждайтесь кристально чистым звуком любимой музыки и комфортной тишиной на дороге."
         videoClass={classes.videoItem2}
@@ -61,7 +61,7 @@ export default function Suggestions() {
 
       <PairContainer
         align="left"
-        videoSrc="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2024/Models/Tourbillon/04_Form_follows_performance/comp/Bugatti_Tourbillon_04b_aerodynamics_d.mp4"
+        videoSrc={require("./media/3.mp4")}
         title="Детейлинг"
         text="Почувствуйте, как ваш автомобиль расцветает в руках профессионалов. Тщательная очистка и восстановление каждой детали вернут ему первозданный вид, обеспечивая непревзойденную чистоту и блеск, который не останется незамеченным."
         videoClass={classes.videoItem3}
@@ -70,7 +70,7 @@ export default function Suggestions() {
 
       <PairContainer
         align="right"
-        videoSrc="https://d2ox13tjqpxop5.cloudfront.net/BUGATTI-2024/Models/Tourbillon/05_Interior/comp/Bugatti_Tourbillon_05ab_entry_material_d.mp4"
+        videoSrc={require("./media/4.mp4")}
         title="Пошив салона"
         text="Преобразите интерьер вашего автомобиля с помощью премиум обшивки и отделки. Элегантные материалы и умелые руки создадут уют и стиль, подчеркивая индивидуальность и комфорт в каждой поездке."
         videoClass={classes.videoItem4}
