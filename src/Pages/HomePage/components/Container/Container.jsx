@@ -21,7 +21,7 @@ const Container = () => {
         />
       </video>
       <Header />
-      <div>
+      <div className={classes.content}>
         <h2>ЛУЧШЕЕ ТЮНИНГ-АТЕЛЬЕ РОССИИ</h2>
         <h1>4MOTION</h1>
         <h3>
