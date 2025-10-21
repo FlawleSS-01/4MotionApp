@@ -30,7 +30,7 @@ export default function StickyLinks() {
             </a>
           </li>
           <li className="item">
-            <a href="javascript:;" data-fancybox="" className="sticky_social_link">
+            <a href="#" data-fancybox="" className="sticky_social_link">
               <i className="wa-icon"></i>
             </a>
           </li>
